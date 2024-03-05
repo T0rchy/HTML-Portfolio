@@ -1,0 +1,109 @@
+body {
+    margin: 0; 
+    background-color: #F6FDC3; 
+}    
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.montserrat-alternates-regular {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#wrap {
+    overflow:hidden;
+    position:relative;/* IE7 needs this */
+}
+  
+.topnav {
+    float:left;
+    position:fixed;
+    background-color: #FFCF96;
+    overflow: hidden;
+    left:40%;
+    
+}  
+  /* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #FFCF96;
+    color: #FF8080;
+  }
+  
+  /* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #CDFADB;
+    color: black;
+  }
+  
+.main {
+    padding: 16px;
+    height: 100vh;
+    background-image:url(./images/laroca.png)
+}
+
+.about {
+    padding: 16px;
+    height: 70vh;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 5%;
+    color: #392467;
+    font-size: 6vw;
+}
+
+h2 {
+    text-align: left;
+    color: #6962AD;
+    font-size: 40px;
+    margin-left: 5%;
+    margin-top: 100px;
+    text-shadow: 2px 2px 2px #FF8080;
+}
+
+#p1 {
+    text-align: center;
+    padding-top: 2%;
+    color: #5D3587;
+    font-size: 3vw;
+}
+
+#p2 {
+    margin-left: 5%;
+    color: #6962AD;
+    font-size: 20px;
+}
+
+#table {
+    margin-left: 5%;
+    text-align: left;
+    color: #CE5937;    
+    width: 90%;
+}
+
+table td, table th {
+    padding: 10px 15px;
+}
+
+.footer {
+    font-size: 13px;
+    padding: 55px 0;
+    line-height: 1.2; 
+    margin-left: 20px ; 
+}
