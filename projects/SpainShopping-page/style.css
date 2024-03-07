@@ -59,14 +59,16 @@ body {
 .main {
     padding: 16px;
     height: 100vh;
-    background:url(./images/laroca.png);
+    background: url(./images/laroca.png);
     background-size: cover;
     @media screen and (max-width: 1120px) {
     .main {
-      padding-top: 90px; } }
+      padding-top: 90px; 
+      width: 100vw;  } }      
         @media screen and (max-width: 991px) {
         .main {
-        padding-top: 65px; } }
+        padding-top: 65px; 
+        width: 100vw;} }
 }
 
 h1 {
