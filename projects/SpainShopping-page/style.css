@@ -1,6 +1,10 @@
 body {
     margin: 0; 
     background-color: #F6FDC3; 
+    @media screen and (max-width: 767px) {
+        body {
+          font-size: 15px;
+          line-height: 1.6; } }
 }  
   
 
@@ -57,16 +61,25 @@ body {
     height: 100vh;
     background: no-repeat center/100% url(./images/laroca.png);
     background-size: cover;
-    width: 100%;
-}    
+    @media screen and (max-width: 1120px) {
+    .main {
+      padding-top: 90px; 
+      width: 100%;  } }      
+        @media screen and (max-width: 991px) {
+        .main {
+        padding-top: 65px; 
+        width: 100%; } }
+}
 
 h1 {
     text-align: center;
     padding-top: 15%;
     color: #164863;
     font-size: 60px;
-}
-
+    @media screen and (max-width: 767px) {
+        h1 {
+          font-size: 30px; }}
+        }
 #p1 {
     text-align: center;
     padding-top: 2%;
@@ -84,7 +97,10 @@ h2 {
     color: #164863;
     font-size: 40px;
     margin-left: 5%;
-    margin-top: 100px; 
+    margin-top: 100px;
+   @media screen and (max-width: 767px) {
+    h2 {
+      font-size: 28px; } } 
 }
 
 
@@ -119,6 +135,10 @@ table td, table th {
     align-items: center;
     margin: 5px;    
     width: 100%;
+}
+
+.container td {
+    width: 50%;
 }
 
 .container td {
