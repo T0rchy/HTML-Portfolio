@@ -59,7 +59,7 @@ body {
 .main {
     padding: 16px;
     height: 100vh;
-    background: url(./images/laroca.png) 50% 0 no-repeat;
+    background: no-repeat center/100% url(./images/laroca.png);
     background-size: cover;
     width: 100%;
     @media screen and (max-width: 1120px) {
