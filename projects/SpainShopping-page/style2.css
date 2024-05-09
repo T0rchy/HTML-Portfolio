@@ -22,7 +22,7 @@ body {
   width: 20%;
   margin-left: 40%;
   @media screen and (max-width: 480px) {
-    margin-left: 15%;
+    margin-left: 20%;
   }   
 }
 
@@ -43,13 +43,11 @@ body {
   font-size: 17px;   
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
   background-color: #FFCF96;
   color: #FF8080;
 }
 
-/* Add a color to the active/current link */
 .topnav a.active {
   background-color: #CDFADB;
   color: black;
@@ -115,7 +113,8 @@ h2 {
   grid-template-columns: auto auto;
   gap: 30px;
   @media screen and (max-width: 480px) {
-    grid-template-columns: auto;}
+    grid-template-columns: auto;
+    gap: 10px;}
 }
 
 .grid-container > div {
