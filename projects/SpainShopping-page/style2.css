@@ -120,7 +120,8 @@ h2 {
 
 .grid-container > div {
   display: inline-flex;
-  color: #CE5937;    
+  color: #CE5937;
+  font-size: 20px;
 }  
 
 .grid-container > div img {
